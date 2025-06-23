@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Solutions - Modern Professional Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><i class="fas fa-rocket"></i> Elite Solutions</div>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#services"><i class="fas fa-briefcase"></i> Services</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1 data-aos="fade-down" data-aos-delay="200">Empowering Your Future</h1>
+            <p data-aos="fade-up" data-aos-delay="400">Unlock your business potential with our innovative, tailored solutions.</p>
+            <a href="#contact" class="cta-button" data-aos="zoom-in" data-aos-delay="600">Get Started</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 data-aos="fade-up">About Us</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Elite Solutions is a forward-thinking company dedicated to delivering cutting-edge professional services. Our team of experts is passionate about driving your success.</p>
+        <p data-aos="fade-up" data-aos-delay="400"><strong>Our Mission:</strong> To empower businesses with innovative solutions that inspire growth and transformation.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-chart-line"></i>
+                <h3>Business Consulting</h3>
+                <p>Strategic guidance to optimize operations and achieve your goals.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-code"></i>
+                <h3>Technology Solutions</h3>
+                <p>Custom software and IT services for seamless digital transformation.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p>Elevate your brand with targeted campaigns and data-driven insights.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                <i class="fas fa-wallet"></i>
+                <h3>Financial Advisory</h3>
+                <p>Expert advice to ensure sustainable financial growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <h2 data-aos="fade-up">Why Choose Us</h2>
+        <div class="why-choose-grid">
+            <div class="why-choose-item" data-aos="fade-right" data-aos-delay="200">
+                <i class="fas fa-users"></i>
+                <h3>Expert Team</h3>
+                <p>Industry leaders with unmatched expertise.</p>
+            </div>
+            <div class="why-choose-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-heart"></i>
+                <h3>Client-Centric</h3>
+                <p>Solutions tailored to your unique needs.</p>
+            </div>
+            <div class="why-choose-item" data-aos="fade-left" data-aos-delay="600">
+                <i class="fas fa-trophy"></i>
+                <h3>Proven Results</h3>
+                <p>Delivering measurable success every time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 data-aos="fade-up">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <p>"Elite Solutions revolutionized our operations with their expertise!"</p>
+                <h4>Jane Doe, CEO of TechTrend</h4>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                <p>"Their innovative approach exceeded our expectations."</p>
+                <h4>John Smith, Founder of GrowEasy</h4>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+                <p>"A reliable partner for transformative results."</p>
+                <h4>Sarah Lee, CFO of InnovateCorp</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-form" data-aos="fade-right" data-aos-delay="200">
+            <h2>Contact Us</h2>
+            <div>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" onclick="submitForm()">Send Message</button>
+            </div>
+        </div>
+        <div class="contact-info" data-aos="fade-left" data-aos-delay="400">
+            <h3>Get in Touch</h3>
+            <p><i class="fas fa-envelope"></i> shantanu322@gmail.com@</p>
+            <p><i class="fas fa-phone"></i> +91 8983747938</p>
+            <p><i class="fas fa-map-marker-alt"></i> Krushi Nagar, dhule, 424001, Maharashtra</p>
+        </div>
+    </section>
+
+    <footer data-aos="fade-up">
+        <ul class="footer-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+            <li><a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+            <li><a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+        </ul>
+        <p>© 2025 Elite Solutions. Crafted with passion.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-out-quart',
+            once: true
+        });
+
+        // Smooth scroll for nav links and CTA
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Toggle mobile menu
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Contact form submission
+        function submitForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                alert('Thank you for your message! We will respond soon.');
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('message').value = '';
+            } else {
+                alert('Please fill out all fields.');
+            }
+        }
+
+        // Parallax effect for hero background
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero');
+            const scrollPosition = window.pageYOffset;
+            hero.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+        });
+    </script>
+</body>
+</html>
